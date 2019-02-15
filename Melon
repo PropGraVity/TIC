@@ -1,0 +1,19 @@
+class Melon {
+
+  float x;
+  float y;
+
+Melon(float valorX, float valorY){
+  x = valorX;
+  y = valorY;
+  
+  
+}
+
+
+  void display(int rojo) {
+    noStroke();
+      fill(rojo, 99, 28);
+    ellipse(x, y, 100, 60);
+  }
+}
